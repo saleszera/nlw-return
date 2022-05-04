@@ -42,7 +42,11 @@
             ],
             "alphabetize": { "order": "asc", "ignoreCase": true }
         }
-      ]
+      ],
+      "import/no-cycle": "off",
+      "react/jsx-no-bind": "off",
+      "react/jsx-no-useless-fragment": "off",
+      "no-unused-vars": "off"
     },
     "settings": {
       "import/parsers": {
